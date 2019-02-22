@@ -8,7 +8,6 @@ This project is to classify disaster response messages through machine learning.
   - DisasterResponse.db: created database from transformed and cleaned data.
 - Models
   - train_classifier.py: includes the code necessary to load data, transform it using natural language processing, run a machine learning model using GridSearchCV and train it. Basic usage is python train_classifier.py DATABASE_DIRECTORY SAVENAME_FOR_MODEL  
-  - classifier.pkl: saved model 
 - App
   - run.py: Flask app and the user interface used to predict results and display them.
   - templates: folder containing the html templates
